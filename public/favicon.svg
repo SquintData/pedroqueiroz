@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pedro Queiroz">
+  <rect width="64" height="64" rx="6" fill="#11100f"/>
+  <rect x="8" y="8" width="48" height="48" rx="3" fill="none" stroke="#d99a3d" stroke-width="3"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#f4ede1">PQ</text>
+</svg>

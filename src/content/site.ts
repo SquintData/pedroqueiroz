@@ -7,7 +7,7 @@ export const siteConfig = {
   whatsappUrl: "https://wa.me/5563992435592",
   instagramUrl: "https://www.instagram.com/pedrovideomakerr/",
   email: "[TEXTO: inserir e-mail profissional aqui]",
-  baseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://pedroqueiroz.com.br"
+  baseUrl: process.env.NEXT_PUBLIC_SITE_URL?.trim() || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000")
 };
 
 export const finalWhatsappMessage =
